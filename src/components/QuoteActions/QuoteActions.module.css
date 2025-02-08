@@ -1,0 +1,39 @@
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .tweetQuote {
+    display: inline-block;
+    padding: 10px;
+    background: #1da1f2;
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .tweetQuote:hover {
+    background: #0d8ddb;
+  }
+  
+  .twitterSvg {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+  }
+  
+  .newQuote {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #764ba2;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .newQuote:hover {
+    background: #5a368f;
+  }

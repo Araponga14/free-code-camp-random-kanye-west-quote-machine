@@ -1,0 +1,25 @@
+.quoteText {
+    text-align: center;
+  }
+  
+  .quote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .quoteLeftSvg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .author {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+  }
